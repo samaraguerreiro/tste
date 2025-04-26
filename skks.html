@@ -3,72 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgroConecta</title>
+    <title>Feira AgroConecta</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
     <header>
-        <div class="logo">
-            <h1>AgroConecta</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#produtos">Produtos</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+        <h1>Feira AgroConecta</h1>
+        <p>Produtos frescos diretamente dos nossos pequenos produtores</p>
     </header>
 
-    <section id="home">
-        <div class="intro">
-            <h2>Bem-vindo ao AgroConecta!</h2>
-            <p>Uma plataforma simples e acessível para pequenos produtores locais.</p>
-        </div>
-    </section>
-
-    <section id="sobre">
-        <h2>Sobre o AgroConecta</h2>
-        <p>A AgroConecta é uma plataforma que facilita a venda de produtos de pequenos produtores locais, conectando-os a um mercado mais amplo e oferecendo ferramentas simples de e-commerce.</p>
-    </section>
-
-    <section id="produtos">
-        <h2>Nossos Produtos</h2>
-        <div class="produtos-lista">
-            <div class="produto">
-                <img src="https://via.placeholder.com/150" alt="Produto 1">
-                <h3>Produto 1</h3>
-                <p>Descrição do produto.</p>
-                <button onclick="adicionarAoCarrinho('Produto 1')">Adicionar ao Carrinho</button>
-            </div>
-            <div class="produto">
-                <img src="https://via.placeholder.com/150" alt="Produto 2">
-                <h3>Produto 2</h3>
-                <p>Descrição do produto.</p>
-                <button onclick="adicionarAoCarrinho('Produto 2')">Adicionar ao Carrinho</button>
-            </div>
-        </div>
-    </section>
-
-    <section id="contato">
-        <h2>Entre em contato</h2>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+    <main class="container" id="product-list">
+        <!-- Produtos aparecerão aqui -->
+    </main>
 
     <footer>
-        <p>&copy; 2025 AgroConecta. Todos os direitos reservados.</p>
+        <p>&copy; 2025 AgroConecta - Conectando você ao campo</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="scripts.js"></script>
+
 </body>
 </html>
+
