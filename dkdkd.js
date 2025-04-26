@@ -1,4 +1,3 @@
-// Lista simulada de produtos dos produtores
 const produtos = [
     {
         nome: "Tomate Orgânico",
@@ -22,7 +21,6 @@ const produtos = [
     }
 ];
 
-// Função para exibir os produtos no site
 function exibirProdutos() {
     const lista = document.getElementById('product-list');
 
@@ -40,5 +38,5 @@ function exibirProdutos() {
     });
 }
 
-// Chamar a função ao carregar a página
-exibirProdutos();
+document.addEventListener('DOMContentLoaded', exibirProdutos);
+
